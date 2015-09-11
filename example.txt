@@ -14,12 +14,12 @@ html {lang: "zh-cn";
     },
     body {;
         div {class: "container";
-            btn_text("ÎÒ", "ÊÇ", "ict"),
-            btn_text("ÎÒ", "°®", "boson"),
-            btn_text("ÎÒ", "°®", "erhuo"),
+            btn_text("æˆ‘", "æ˜¯", "ict"),
+            btn_text("æˆ‘", "çˆ±", "boson"),
+            btn_text("æˆ‘", "çˆ±", "erhuo"),
             div {class: "input-group";
-                span {class: "input-group-addon", id: "title"; "ÏëÎÊÎÒÊ²Ã´£¿"},
-                input {type: "text", class: "form-control", placeholder: "ÊäÈëÎÊÌâ", aria-describedby: "title";},
+                span {class: "input-group-addon", id: "title"; "æƒ³é—®æˆ‘ä»€ä¹ˆï¼Ÿ"},
+                input {type: "text", class: "form-control", placeholder: "è¾“å…¥é—®é¢˜", aria-describedby: "title";},
                 span {class: "input-group-btn"; button {class: "btn btn-default", type: "button"; "OK"}}
             }
         }

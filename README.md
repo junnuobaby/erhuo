@@ -1,41 +1,41 @@
-#ErhuoÇ°¶ËÉè¼ÆÓïÑÔ
+#Erhuoå‰ç«¯è®¾è®¡è¯­è¨€
 
-Erhuo¿ÉÒÔÊÇÒ»¸ö¿ÉÉú³Éhtml¸ñÊ½µÄÉè¼ÆÓïÑÔ£¬ËüÊ¹ÓÃ[boson](https://github.com/ictxiangxin/boson)¿ª·¢.
+Erhuoå¯ä»¥æ˜¯ä¸€ä¸ªå¯ç”Ÿæˆhtmlæ ¼å¼çš„è®¾è®¡è¯­è¨€ï¼Œå®ƒä½¿ç”¨[boson](https://github.com/ictxiangxin/boson)å¼€å‘.
 
-* ErhuoµÄÔ´ÂëÊ®·Ö¼òµ¥
-* ErhuoµÄÊ¹ÓÃÒ²·Ç³£¼òµ¥
+* Erhuoçš„æºç ååˆ†ç®€å•
+* Erhuoçš„ä½¿ç”¨ä¹Ÿéžå¸¸ç®€å•
 
-example.txtÖÐÊÇÒ»¸öÔ´ÂëÀý×Ó¡£
+example.txtä¸­æ˜¯ä¸€ä¸ªæºç ä¾‹å­ã€‚
 
-##±àÒëErhuo
-Ê¹ÓÃ`boson`±àÒë`erhuo.g`ºÍ`erhuo.l`ÕâÁ½¸öÎÄ¼þ¾Í¿ÉÒÔÉú³ÉErhuoµÄ±àÒëÆ÷¡£
+##ç¼–è¯‘Erhuo
+ä½¿ç”¨`boson`ç¼–è¯‘`erhuo.g`å’Œ`erhuo.l`è¿™ä¸¤ä¸ªæ–‡ä»¶å°±å¯ä»¥ç”ŸæˆErhuoçš„ç¼–è¯‘å™¨ã€‚
 
-±àÒëÖ¸ÁîÈçÏÂ£º
+ç¼–è¯‘æŒ‡ä»¤å¦‚ä¸‹ï¼š
 
 `boson.py erhuo.g -l erhuo.l -a lalr -o erhuo.py`
 
-±àÒëÍê`erhuo.py`ºó£¬¾Í¿ÉÒÔ±àÒëErhuoÓïÑÔÁË£º
+ç¼–è¯‘å®Œ`erhuo.py`åŽï¼Œå°±å¯ä»¥ç¼–è¯‘Erhuoè¯­è¨€äº†ï¼š
 
 `erhuo.py example.txt example.html`
 
-ÆäÖÐ`example.html`¾ÍÊÇ±àÒëÉú³ÉµÄhtmlÎÄ¼þ¡£
+å…¶ä¸­`example.html`å°±æ˜¯ç¼–è¯‘ç”Ÿæˆçš„htmlæ–‡ä»¶ã€‚
 
-##Óï·¨½éÉÜ
+##è¯­æ³•ä»‹ç»
 
-Ä¿Ç°ErhuoÓÐ2ÖÖÓï·¨¸ñÊ½£¬Ò»ÖÖÊÇÉè¼ÆÃèÊö£¬Ò»ÖÖÊÇº¯Êý¶¨Òå¡£
+ç›®å‰Erhuoæœ‰2ç§è¯­æ³•æ ¼å¼ï¼Œä¸€ç§æ˜¯è®¾è®¡æè¿°ï¼Œä¸€ç§æ˜¯å‡½æ•°å®šä¹‰ã€‚
 
-###±êÇ©ÃèÊö
+###æ ‡ç­¾æè¿°
 
-`html±êÇ© { ÊôÐÔÁÐ±í ; ×ÓÔªËØÁÐ±í }`
+`htmlæ ‡ç­¾ { å±žæ€§åˆ—è¡¨ ; å­å…ƒç´ åˆ—è¡¨ }`
 
-* `ÊôÐÔÁÐ±í`ºÍ`×ÓÔªËØÁÐ±í`Ö±½ÓÒÔ·ÖºÅ¸ô¿ª¡£
-* `ÊôÐÔÁÐ±í`ºÍ`×ÓÔªËØÁÐ±í`¶¼¿ÉÒÔÎª¿Õ¡£
-* `ÊôÐÔÁÐ±í`½«¸÷¸öÊôÐÔÒÔ¶ººÅ·Ö¿ª£º`ÊôÐÔ, ÊôÐÔ, ...`¡£
-* `ÊôÐÔ`µÄ±íÊ¾Îª`ÊôÐÔÃû : ÊôÐÔÖµ`¡£
-* `×ÓÔªËØÁÐ±í`½«¸÷¸ö×ÓÔªËØÒÔ¶ººÅ·Ö¿ª£º`×ÓÔªËØ, ×ÓÔªËØ, ...`¡£
-* `×ÓÔªËØ`¿ÉÒÔÊÇÒ»¸öÐÂµÄ±êÇ©ÃèÊö¡¢Ò»¸öº¯Êý»òÕßÒ»¸ö×Ö·û´®¡£
+* `å±žæ€§åˆ—è¡¨`å’Œ`å­å…ƒç´ åˆ—è¡¨`ç›´æŽ¥ä»¥åˆ†å·éš”å¼€ã€‚
+* `å±žæ€§åˆ—è¡¨`å’Œ`å­å…ƒç´ åˆ—è¡¨`éƒ½å¯ä»¥ä¸ºç©ºã€‚
+* `å±žæ€§åˆ—è¡¨`å°†å„ä¸ªå±žæ€§ä»¥é€—å·åˆ†å¼€ï¼š`å±žæ€§, å±žæ€§, ...`ã€‚
+* `å±žæ€§`çš„è¡¨ç¤ºä¸º`å±žæ€§å : å±žæ€§å€¼`ã€‚
+* `å­å…ƒç´ åˆ—è¡¨`å°†å„ä¸ªå­å…ƒç´ ä»¥é€—å·åˆ†å¼€ï¼š`å­å…ƒç´ , å­å…ƒç´ , ...`ã€‚
+* `å­å…ƒç´ `å¯ä»¥æ˜¯ä¸€ä¸ªæ–°çš„æ ‡ç­¾æè¿°ã€ä¸€ä¸ªå‡½æ•°æˆ–è€…ä¸€ä¸ªå­—ç¬¦ä¸²ã€‚
 
-ÀýÈç£º
+ä¾‹å¦‚ï¼š
 
 ```
 div {id: "1", class: "container";
@@ -43,17 +43,17 @@ div {id: "1", class: "container";
 }
 ```
 
-###º¯Êý¶¨Òå
+###å‡½æ•°å®šä¹‰
 
-`let º¯ÊýÃû(²ÎÊýÁÐ±í) = ±êÇ©ÃèÊö`
+`let å‡½æ•°å(å‚æ•°åˆ—è¡¨) = æ ‡ç­¾æè¿°`
 
-* `±êÇ©ÃèÊö`ÖÐµÄÒ»Ð©Öµ±»²ÎÊýËùÌæ»»¡£
+* `æ ‡ç­¾æè¿°`ä¸­çš„ä¸€äº›å€¼è¢«å‚æ•°æ‰€æ›¿æ¢ã€‚
 
-ÀýÈç£º
+ä¾‹å¦‚ï¼š
 
 `let button(text) = button {class: "btn btn-primary; text"}`
 
-##¼Æ»®¿ª·¢
-* ¼ÓÈë±äÁ¿¡£
-* ¼ÓÈë±í´ïÊ½¹¦ÄÜ¡£
-* ¼ÓÈëÍ·ÎÄ¼þÒýÈë¹¦ÄÜ¡£
+##è®¡åˆ’å¼€å‘
+* åŠ å…¥å˜é‡ã€‚
+* åŠ å…¥è¡¨è¾¾å¼åŠŸèƒ½ã€‚
+* åŠ å…¥å¤´æ–‡ä»¶å¼•å…¥åŠŸèƒ½ã€‚
