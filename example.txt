@@ -1,0 +1,27 @@
+let css(addr) = link {href: addr, rel: "stylesheet";}
+let js(addr) = script {src: addr;}
+let my_button(text) = button {type: "button", class: "btn btn-primary"; text}
+let btn_text(t1, t2, t3) = div {class: "btn-group", role: "group", aria-label: "...";
+                                 my_button(t1), my_button(t2), my_button(t3)
+                               }
+
+html {lang: "zh-cn";
+    head {;
+        title {; "Erhuo Language"},
+        css("//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"),
+        js("//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"),
+        js("//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    },
+    body {;
+        div {class: "container";
+            btn_text("我", "是", "ict"),
+            btn_text("我", "爱", "boson"),
+            btn_text("我", "爱", "erhuo"),
+            div {class: "input-group";
+                span {class: "input-group-addon", id: "title"; "想问我什么？"},
+                input {type: "text", class: "form-control", placeholder: "输入问题", aria-describedby: "title";},
+                span {class: "input-group-btn"; button {class: "btn btn-default", type: "button"; "OK"}}
+            }
+        }
+    }
+}
