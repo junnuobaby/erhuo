@@ -3,12 +3,12 @@ let js(addr) = script {src: addr;}
 let my_button(btext, color) = button {type: "button", class: color; btext}
 let primary_button(pbtext) = my_button(pbtext, "btn btn-primary")
 let default_button(dbtext) = my_button(dbtext, "btn btn-default")
-let my_block(title, blktext, b1, b2, img_src) =
+let my_block(blktitle, blktext, b1, b2, img_src) =
 div {class: "col-sm-6 col-md-4";
     div {class: "thumbnail";
         img {src: img_src, alt: "...";},
         div {class: "caption";
-            h3 {; title}, p {; blktext}, p{;primary_button(b1), default_button(b2)}
+            h3 {; blktitle}, p {; blktext}, p{;primary_button(b1), default_button(b2)}
         }
     }
 }
