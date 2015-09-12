@@ -57,3 +57,15 @@ div {id: "1", class: "container";
 * 加入变量。
 * 加入表达式功能。
 * 加入头文件引入功能。
+
+##例子展示
+
+例子中用erhuo写了一个简单的介绍页面。
+
+###Erhuo源码
+
+![Erhuo源码](http://raw.github.com/ictxiangxin/erhuo/master/example/source.png)
+
+###编译后的效果
+
+![Erhuo源码](http://raw.github.com/ictxiangxin/erhuo/master/example/result.png)
