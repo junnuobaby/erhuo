@@ -5,7 +5,7 @@ Erhuo可以是一个可生成html格式的设计语言，它使用[boson](https:
 * Erhuo的源码十分简单
 * Erhuo的使用也非常简单
 
-example.txt中是一个源码例子。
+`example`文件夹中是一个源码例子。
 
 ##编译Erhuo
 使用`boson`编译`erhuo.g`和`erhuo.l`这两个文件就可以生成Erhuo的编译器。
