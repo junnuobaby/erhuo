@@ -82,7 +82,7 @@ return block_list, function_dict
 @extend
 @@
 indent_str = "    "
-no_reverse = ["link", "input"]
+no_reverse = ["link", "input", "meta", "img"]
 
 
 def gen_code(item, func_dict, arg_dict, disable_type, indent):
@@ -132,8 +132,8 @@ output = sys.stdout
 if __name__ == "__main__":
     if len(sys.argv) in [2, 3]:
         if len(sys.argv) == 3:
-            output = open(sys.argv[2], "w")
-        with open(sys.argv[1], "r") as fp:
+            output = open(sys.argv[2], "w", encoding="utf-8")
+        with open(sys.argv[1], "r", encoding="utf-8") as fp:
             s = fp.read()
             bl, fd = erhuo_grammar(erhuo_lexer(s))
             for b in bl:
